@@ -1,7 +1,7 @@
 /* style2.css - Modo claro */
 @font-face {
     font-family: 'MiFuente';
-    src: url('MiFuente.woff2') format('woff2');
+    src: url('Philosopher-Regular.ttf') format('truetype');
 }
 
 :root {
@@ -15,6 +15,7 @@
 
 body {
     font-family: 'MiFuente', Arial, sans-serif;
+    font-size: 20px;
     background-color: var(--bg-color);
     color: var(--text-color);
     display: flex;
