@@ -1,0 +1,72 @@
+/* style2.css - Modo claro */
+@font-face {
+    font-family: 'MiFuente';
+    src: url('MiFuente.woff2') format('woff2');
+}
+
+:root {
+    --bg-color: #f0f0f0;
+    --bg-color-hover:#cfcfcfdb;
+    --text-color: #333333;
+    --primary-color: #007bff;
+}
+
+body {
+    font-family: 'MiFuente', Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form{
+    width: 400px;
+    padding: 20px;
+    background:#1ebfd1e9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 32px;
+}
+
+.form-group {
+    display: grid;
+    grid-row: center;
+    margin-bottom: 15px;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 32px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 32px;
+    margin-bottom: 10px;
+    background-color: var(--bg-color);
+    color: #333333;
+}
+
+input:hover{
+    background-color: var(--bg-color-hover);
+}
+
+button {
+    background: var(--primary-color);
+    color: white;
+    padding: 10px;
+    border-radius: 32px;
+    border: none;
+}
+
+button:hover {
+    background: #0056b3;
+}

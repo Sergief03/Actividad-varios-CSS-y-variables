@@ -1,0 +1,55 @@
+/* style1.css - Modo oscuro */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+:root {
+    --bg-color: #121212;
+    --text-color: #ffffff;
+    --primary-color: #bb86fc;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.container {
+    background: #353535;
+    padding: 20px;
+    border-radius: 32px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+input:hover{
+    background-color: #f0f0f0b5;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+button {
+    background: var(--primary-color);
+    color: var(--text-color);
+    padding: 20px;
+    border-radius: 32px;
+    
+}
+
+button:hover {
+    background: #9a68db;
+}
