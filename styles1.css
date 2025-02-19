@@ -5,6 +5,9 @@
     --bg-color: #121212;
     --text-color: #ffffff;
     --primary-color: #bb86fc;
+    --bg-container:#353535;
+    --bg-input-hover:#f0f0f0b5;
+    --button-hover:#9a68db
 }
 
 body {
@@ -18,6 +21,13 @@ body {
     margin: 0;
 }
 
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 30px;
+}
+
 .form-group {
     display: flex;
     justify-content: space-between;
@@ -26,14 +36,14 @@ body {
 }
 
 .container {
-    background: #353535;
+    background: var(--bg-container);
     padding: 20px;
     border-radius: 32px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
 }
 
 input:hover{
-    background-color: #f0f0f0b5;
+    background-color:var(--bg-input-hover);
 }
 
 .button-container {
@@ -51,5 +61,5 @@ button {
 }
 
 button:hover {
-    background: #9a68db;
+    background: var(--button-hover);
 }
